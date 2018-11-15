@@ -1,3 +1,9 @@
+# 主要目的
+解决 prometheus 对接 graphite 时，由于 metric 中 label 多而杂，可以根据自定义 label 配置项进行过滤
+
+# 对应 prometheus 版本
+v1.8.2
+
 # Remote storage adapter
 
 This is a write adapter that receives samples via Prometheus's remote write
